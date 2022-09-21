@@ -18,6 +18,13 @@ const depthFirstPrint = (graph, source) =>{
 
 };
 /*
+
+//in this recursive method, there is no explicit base case.
+//in other words, no if(), return statement.
+//when an empty neighbor is passed, zero iteration occurs, which is what happens in base case.
+//thus, this code works...
+
+
 const depthFirstPrint = (graph, source) =>{
 
     console.log(source);
